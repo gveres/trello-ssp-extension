@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "Trello - SSP",
+    "description": "Trello customizations for SSP",
+    "version": "1.8",
+    "content_scripts": [{
+        "matches": ["https://trello.com/b/*"],
+        "js": ["trello-ssp.user.js"],
+        "css": ["trello-ssp.css"],
+        "run_at": "document_end"
+    }]
+}

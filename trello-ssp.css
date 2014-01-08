@@ -1,0 +1,19 @@
+.search-result-card .card-label, .list-card-area .card-label { min-height: 20px; max-width: 20px; background-repeat: no-repeat; background-position:center center; }
+.pop-over-label-list .card-label, .relative .card-label { background-repeat: no-repeat; background-position:center center; }
+.edit-labels-pop-over .card-label { background-repeat: no-repeat; background-position:5px center; padding-left: 25px; }
+.card-label-list .card-label { background-repeat: no-repeat; background-position:5px center; padding-left: 25px ! important; }
+.ui-sortable-helper .card-label { background-image:none ! important; }
+.card-operation.icon-sm.icon-menu.dark-hover.js-card-menu { background-color: transparent; z-index:45; }
+
+.card-label.green-label  { background-image: url('http://www.paulodev.com.br/images/icons/16x16/check_box.png');  }
+.card-label.yellow-label { background-image: url('http://www.paulodev.com.br/images/icons/16x16/helmet_mine.png'); }
+.card-label.orange-label { background-image: url('http://www.paulodev.com.br/images/icons/16x16/error.png'); }
+.card-label.red-label    { background-image: url('http://www.paulodev.com.br/images/icons/16x16/bug.png');    }
+.card-label.purple-label { background-image: url('http://www.paulodev.com.br/images/icons/16x16/cash_stack.png'); }
+.card-label.blue-label   { background-image: url('http://www.paulodev.com.br/images/icons/16x16/world.png'); }
+
+.js-text { height: 500px !important; } 
+.window { bottom: auto !important; left: auto !important; margin: 30px auto 30px auto !important; padding: 0 !important; position: relative !important; right: auto !important; top: auto !important; width: 95% !important; } 
+div.window-main-col { width: 80% !important; } 
+div.window-sidebar { width: 15% !important; }
+
